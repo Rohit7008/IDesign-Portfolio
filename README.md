@@ -1,34 +1,39 @@
-# iDesign - Premium Interior Design Portfolio
+# IDesign Portfolio
 
-A luxurious, modern landing page for a high-end interior design firm. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
+A luxury interior design portfolio website built with Next.js, featuring a sophisticated project gallery with advanced interaction patterns.
 
 ## Features
 
-- 🎨 Elegant, minimalist design with luxury aesthetics
-- 📱 Fully responsive across all devices
-- ✨ Smooth animations and transitions
-- 🖼️ Interactive portfolio gallery
-- 📝 Contact form with validation
-- 🚀 Optimized performance and loading
+- **Modern Design**
+  - Luxury aesthetic with muted, neutral color palette
+  - Custom typography with serif and sans-serif combinations
+  - Elegant animations and transitions
+  - Responsive layout for all devices
 
-## Tech Stack
+- **Advanced Project Gallery**
+  - Immersive modal view with multiple navigation options
+  - Desktop: Arrow buttons, keyboard navigation, and mouse drag
+  - Mobile: Touch swipe gestures
+  - Smooth transitions and visual feedback
+  - Image previews during navigation
 
-- **Framework**: Next.js 14
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Fonts**: Playfair Display (serif) & Inter (sans-serif)
-- **Images**: Optimized with Next.js Image component
+- **Technical Stack**
+  - Next.js 13+ with App Router
+  - TypeScript for type safety
+  - Tailwind CSS for styling
+  - Framer Motion for animations
+  - Responsive images with Next.js Image optimization
 
 ## Getting Started
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/idesign-portfolio.git
+   git clone https://github.com/Rohit7008/IDesign-Portfolio.git
    ```
 
 2. Install dependencies:
    ```bash
+   cd IDesign-Portfolio
    npm install
    ```
 
@@ -43,43 +48,27 @@ A luxurious, modern landing page for a high-end interior design firm. Built with
 
 ```
 src/
-├── app/                # Next.js app directory
-│   ├── layout.tsx     # Root layout
-│   ├── page.tsx       # Home page
-│   └── globals.css    # Global styles
-├── components/        # React components
-│   ├── Navigation/    # Navigation components
-│   ├── Services/      # Services section
-│   ├── Portfolio/     # Portfolio gallery
-│   ├── Contact/       # Contact form
-│   └── Footer/        # Footer component
-└── types/            # TypeScript type definitions
+├── app/                 # Next.js app router files
+├── components/          # React components
+│   ├── Portfolio/      # Portfolio section components
+│   │   ├── PortfolioSection.tsx
+│   │   └── ProjectModal.tsx
+│   └── ...
+├── hooks/              # Custom React hooks
+└── styles/             # Global styles
 ```
 
-## Design Features
+## Design System
 
-- Muted, neutral color palette with gold accents
-- Generous white space and elegant typography
-- Smooth scroll navigation
-- Interactive hover effects
-- Modal gallery for portfolio items
-- Responsive grid layouts
-- Animated section transitions
+- **Colors**
+  - Primary: Matte Black (#1A1A1A)
+  - Secondary: Gold (#D4AF37)
+  - Background: Beige, Ivory, Off-white
+  - Accents: Various gold shades
 
-## Performance Optimization
-
-- Images optimized with Next.js Image component
-- Lazy loading for off-screen images
-- Component-level code splitting
-- Optimized fonts with next/font
-- Minimal bundle size
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- **Typography**
+  - Headings: Playfair Display (Serif)
+  - Body: Inter (Sans-serif)
 
 ## Contributing
 
@@ -87,4 +76,8 @@ Feel free to submit issues and enhancement requests.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Rohit Pottavathini 
