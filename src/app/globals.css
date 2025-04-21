@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
+  }
+
+  body {
+    @apply antialiased text-primary;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .btn-primary {
+    @apply px-8 py-3 bg-primary text-white border-2 border-primary hover:bg-transparent hover:text-primary transition-all duration-300;
+  }
+
+  .btn-outline {
+    @apply px-8 py-3 border-2 border-secondary text-secondary hover:bg-secondary hover:text-white transition-all duration-300;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .heading-xl {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+  }
+
+  .heading-lg {
+    @apply font-serif text-3xl md:text-4xl font-bold leading-tight;
+  }
+
+  .heading-md {
+    @apply font-serif text-2xl md:text-3xl font-bold leading-tight;
+  }
+} 

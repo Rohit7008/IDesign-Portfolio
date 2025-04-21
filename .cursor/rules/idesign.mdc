@@ -1,0 +1,77 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+rules:
+  - Always follow and respect every rule outlined in this file. All prompts, designs, and code must reflect the defined aesthetics and structure.
+  - The overall design must reflect luxury, class, and creative elegance.
+  - Use a muted, neutral color palette:
+      - Backgrounds: beige, off-white, ivory.
+      - Accents & typography: gold and matte black.
+  - Typography:
+      - Headings: Serif fonts (e.g., Playfair Display, Cormorant Garamond).
+      - Body text: Clean Sans-serif fonts (e.g., Inter, Lato).
+  - Apply generous white space, elegant line dividers, and optional soft textures for depth.
+  - Use smooth, subtle transitions and animations site-wide (Framer Motion, GSAP, or CSS).
+  - Ensure responsive behavior across all screen sizes: mobile, tablet, and desktop.
+  - Page load must be under 2.5 seconds with optimized image and asset delivery (use lazy loading, WebP where possible).
+
+sections:
+  - Hero Section:
+      - Full-screen high-res background image of luxury interior.
+      - Large, bold serif headline (e.g., “Designing Spaces. Defining Lifestyles.”).
+      - Subtle tagline beneath headline.
+      - Primary CTA: “Book a Consultation” with gold-outline hover effect.
+  - About Section:
+      - Short paragraph describing the firm’s values and mission.
+      - Use vertical dividers or elegant soft separators.
+  - Services Section:
+      - Display in a responsive 2 or 3-column grid.
+      - Each service card must contain:
+          - Thin-line icon.
+          - Title.
+          - Short description (1–2 sentences).
+      - Apply subtle hover effects (card lift, glow, or gold outline).
+  - Portfolio Section:
+      - Grid or masonry layout of past projects.
+      - On click:
+          - Open a fullscreen animated modal with dark blurred backdrop.
+          - Modal displays one image at a time with:
+              - Swipe or arrow navigation.
+              - Caption below each image.
+              - Transition effects (fade, slide, or zoom).
+              - Close button or “Back to Portfolio” CTA.
+              - Associated scrollable project details/cards below images (optional).
+          - Use Framer Motion, Swiper.js, or GSAP for animations.
+  - Testimonials Section:
+      - Card-based slider or carousel layout.
+      - Include:
+          - Client name.
+          - Role or brand.
+          - Short testimonial.
+          - Optional: Small profile image or brand logo.
+  - Contact Section:
+      - Elegant form design with:
+          - Fields: Name, Email, Message.
+          - Rounded corners, soft shadows, gold-accented button.
+      - Optionally include phone number and address.
+  - Navigation:
+      - Sticky navbar with:
+          - Left-aligned logo.
+          - Right-aligned smooth-scroll links.
+          - Hamburger menu for mobile.
+  - Footer:
+      - Must include:
+          - Social icons (gold on hover).
+          - Quick links (About, Services, Contact).
+          - Copyright.
+          - Optional: background texture or divider line.
+
+bonus:
+  - Optionally include:
+      - Golden lines or thin decorative elements.
+      - Soft background patterns or textures.
+      - Delicate scroll-triggered motion effects.
+  - Ensure all animations feel premium and natural — never flashy or exaggerated.
+
