@@ -147,7 +147,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
         style={{
           backgroundImage: 'url("/subtle-pattern.png")',
           backgroundBlendMode: 'soft-light',
-          backgroundOpacity: 0.1
+          opacity: 0.1
         }}
         onClick={handleClose}
       />
